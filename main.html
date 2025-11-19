@@ -1,25 +1,13 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>Download Test</title>
+    <meta charset="UTF-8">
+    <title>Download Page</title>
 </head>
 <body>
-  <h2>a.index 다운로드 버튼</h2>
-  
-  <!-- 다운로드 링크 (버튼처럼 보이게) -->
-  <a href="a.index" download="a.index" style="padding: 10px 20px; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">다운로드</a>
-
-  <!-- 또는 js 버튼 사용
-  <button onclick="downloadFile()">다운로드</button>
-  <script>
-    function downloadFile(){
-      const link = document.createElement('a');
-      link.href = 'a.index';
-      link.download = 'a.index';
-      link.click();
-    }
-  </script>
-  -->
+    <h1>파일 다운로드</h1>
+    <a href="a.index" download>
+        <button>다운로드</button>
+    </a>
 </body>
 </html>
